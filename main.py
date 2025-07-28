@@ -26,4 +26,4 @@ async def root():
 @app.get("/api/health")
 async def health_check():
     db_status = check_db_connection()
-    return {"status": "ok", "database": db_status}
+    return {"status": "ok", "database": db_status} 
